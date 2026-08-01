@@ -1,8 +1,15 @@
 aid: quibim
 name: QUIBIM
-description: 'QUIBIM is a company surfaced as a portfolio company of partech and added to the API Evangelist
-  network as a stub for enrichment. Sector: Healthcare. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'QUIBIM is a healthcare AI company that unlocks medical imaging data to improve
+  patient outcomes through quantitative imaging biomarkers and radiomics. Its cloud-based,
+  tissue-agnostic platform ingests, harmonizes, and analyzes imaging data (MRI, CT, PET)
+  to extract automated radiomics and deep-learning imaging biomarkers that support clinical
+  decision-making and biopharma drug development. Regulated clinical products include
+  QP-Prostate, QP-Brain, QP-Liver, QP-Breast, QP-Lung, and the QP-Insights multi-omics
+  platform, several of which are CE and UKCA marked and integrate with hospital PACS
+  systems. QUIBIM is ISO 27001:2022 certified and HIPAA and GDPR compliant. This profile
+  was surfaced as a portfolio company of Partech and enriched by the API Evangelist pipeline;
+  QUIBIM publishes no public developer API surface at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/quibim/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,18 +17,62 @@ x-backed-by:
 - partech
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Healthcare
+- Medical Imaging
+- Artificial Intelligence
+- Radiology
+- Imaging Biomarkers
+- Radiomics
+- Life Sciences
+- Drug Development
+image: https://quibim.ai/wp-content/uploads/quibim-logo.png
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
 common:
+- type: DomainSecurity
+  url: security/quibim-domain-security.yml
 - type: Website
-  url: https://www.quibim.com/
+  url: https://quibim.ai/
+- type: About
+  url: https://quibim.ai/about/
+- type: Support
+  url: https://quibim.ai/support-center-hub/
+- type: Blog
+  url: https://quibim.ai/newsroom/
+- type: PrivacyPolicy
+  url: https://quibim.ai/privacy-policy/
+- type: TermsOfService
+  url: https://quibim.ai/legal-notice/
+- type: TrustCenter
+  url: https://quibim.ai/trust-hub/
+- type: Compliance
+  url: https://quibim.ai/security-measures/
+- type: Conformance
+  url: conformance/quibim-conformance.yml
+- type: TrustCenter
+  url: security/quibim-trust-center.yml

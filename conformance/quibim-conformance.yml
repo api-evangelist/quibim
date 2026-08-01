@@ -1,0 +1,36 @@
+generated: '2026-07-20'
+method: searched
+source: https://quibim.ai/trust-hub/security-and-privacy/
+note: >-
+  QUIBIM publishes no public developer API, so no OpenAPI-derived cross-cutting
+  API standards (oauth2, oidc, rfc9457, pagination, etc.) apply. The standards
+  below capture the security, privacy, and medical-device regulatory frameworks
+  QUIBIM publicly claims conformance to across its clinical imaging products.
+standards:
+- id: iso-27001-2022
+  conforms: true
+  evidence: ISO/IEC 27001:2022 certified (Trust Hub, Security & Privacy)
+- id: hipaa
+  conforms: true
+  evidence: HIPAA compliant (company homepage / security posture)
+- id: gdpr
+  conforms: true
+  evidence: GDPR compliant (Trust Hub, Security & Privacy)
+- id: ce-mark
+  conforms: true
+  evidence: CE marked medical device products (QP-Breast, QP-Prostate, others)
+- id: ukca-mark
+  conforms: true
+  evidence: UKCA marked medical device products (QP-Breast)
+- id: health-canada
+  conforms: true
+  evidence: Health Canada licensed (QP-Prostate)
+- id: fhir-r4
+  conforms: false
+- id: dicom
+  conforms: false
+  evidence: PACS integration implies DICOM interchange but no public spec is published
+- id: oauth2
+  conforms: false
+- id: rfc9457-problem-details
+  conforms: false
